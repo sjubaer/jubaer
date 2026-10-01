@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+@font-face { font-family: "Clash Grotesk"; src: url("https://framerusercontent.com/third-party-assets/fontshare/wf/MKEEQN57GWBZOSYWCRODNJOOZNPLMAKN/5SPTSZGHEACWWLF34DQ4WAA4OGU6PQIF/KN7DX4F6PXB74R6L2K2Y4NH3CB7FC53Q.woff2"); font-display: swap; font-style: normal; font-weight: 600 }
 
 html {
   scroll-behavior: smooth;
@@ -10,11 +11,15 @@ body {
   margin: 0;
   background: #f4f2eb;
   color: #151514;
-  font-family: "DM Sans", Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", Arial, sans-serif;
   font-size: 12px;
   line-height: 1.45;
 }
-
+h1,
+h2,
+h3 {
+  font-family: "Clash Grotesk", Arial, sans-serif;
+}
 /* =========================
    Top Bar
 ========================= */
