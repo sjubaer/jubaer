@@ -77,9 +77,7 @@ main {
 
 .hero h1 {
   font-size: 20px;
-  line-height: 0.99;
-  letter-spacing: -0.075em;
-  max-width: 270px;
+  line-height: 1;
   margin: 0 0 9px;
   font-weight: 700;
 }
@@ -536,7 +534,7 @@ main {
   }
 
   main {
-    width: min(900px, calc(100vw - 80px));
+    width: min(1200px, calc(100vw - 80px));
   }
 
   /* Hero */
