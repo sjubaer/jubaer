@@ -134,7 +134,7 @@ main {
 }
 
 .feature-copy {
-  max-width: 145px;
+  max-width: 100%;
 }
 
 .feature h2 {
