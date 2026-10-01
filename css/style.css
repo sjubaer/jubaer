@@ -549,18 +549,19 @@ main {
   }
 
   .hero h1 {
-    font-size: 58px;
-    max-width: 760px;
+    font-size: 72px;
+    max-width: 100%;
   }
 
   .hero-copy {
-    font-size: 11px;
+    font-size: 14px;
     max-width: 550px;
   }
 
   .pill {
-    font-size: 9px;
-    padding: 7px 13px;
+           font-size: 13px;
+        padding: 13px 18px 13px 20px;
+        
   }
 
   /* Feature */
@@ -572,20 +573,17 @@ main {
   }
 
   .feature h2 {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   .feature p:not(.eyebrow) {
-    font-size: 10px;
+    font-size: 13px;
   }
 
-  .feature-card {
-    width: 215px;
-    height: 160px;
-  }
+
 
   .feature-card strong {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   /* Headings */
@@ -594,11 +592,12 @@ main {
   .services > h2,
   .dark-panel h2,
   .case-highlight > h2 {
-    font-size: 30px;
+    font-size: 44px;
+    letter-spacing: -0.04em;
   }
 
   .section-heading > a {
-    font-size: 9px;
+    font-size: 13px;
   }
 
   /* Projects */
