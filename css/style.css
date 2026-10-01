@@ -134,7 +134,7 @@ main {
 }
 
 .feature-copy {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .feature h2 {
@@ -156,7 +156,7 @@ main {
 }
 
 .feature-card {
-  width: 100%;
+  width: 50%;
   height: 58px;
 
   background: #aabd9e;
