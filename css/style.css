@@ -20,6 +20,10 @@ h2,
 h3 {
   font-family: "Clash Grotesk", Arial, sans-serif;
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 /* =========================
    Top Bar
 ========================= */
