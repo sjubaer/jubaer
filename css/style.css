@@ -271,7 +271,7 @@ main {
 /* Fake project content */
 
 .fake-body {
-  position: absolute;
+
   left: 7px;
   right: 7px;
   bottom: 7px;
@@ -282,43 +282,29 @@ main {
   gap: 13px;
 }
 
-.fake-body i {
-  display: block;
-  width: 45%;
-  height: 100%;
-  background: #f0eee6;
+.project{
+      display: flex;
+    justify-content: space-between;
+    gap: 32px;
 }
 
-.fake-body b {
-  display: block;
-  width: 28%;
-  height: 42%;
-  background: #3c3c39;
-}
-
-.fake-body em {
-  display: block;
-  width: 20%;
-  height: 27%;
-  background: #eeeae0;
-}
 
 .project h3 {
-  font-size: 8px;
+  font-size: 22px;
   line-height: 1;
   margin: 0 0 5px;
   letter-spacing: -0.045em;
 }
 
 .project p {
-  font-size: 5px;
+  font-size: 15px;
   line-height: 1.45;
   color: #68665f;
   margin: 0 0 5px;
 }
 
 .project-meta {
-  font-size: 4.5px !important;
+  font-size: 14.5px !important;
   color: #8b887f !important;
 }
 
@@ -612,7 +598,7 @@ main {
   }
 
   .project-visual {
-   
+   max-width: 60%;
   }
 
   .project h3 {
