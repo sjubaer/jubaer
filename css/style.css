@@ -674,7 +674,7 @@ main {
     height: fit-content;
   }
 }
-.project-details h3, .project-details p{
+.project-details>h3, .project-details>p{
   border-bottom: 1px solid #ddd;
         padding-bottom: 15px;
 }
@@ -723,7 +723,7 @@ main {
 }
 
 .portfolio-description.expanded .description-more {
-  max-height: 500px;
+  max-height: 5000px;
   opacity: 1;
 }
 
@@ -741,4 +741,16 @@ main {
 
 .portfolio-description.expanded .read-less {
   display: inline-block;
+}
+.project-meta{
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-top: 15px;
+        padding-bottom: 0;
+    border-bottom: none;
+    margin-top: 15px;
+    font-size: 12px !important;
+    font-weight: 700;
+    color: #000 !important;
+    text-transform: uppercase;
 }
