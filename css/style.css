@@ -785,3 +785,9 @@ main {
    
     padding-top: 32px;
 }
+.arrow-indicator{
+  
+  max-width: 20px;
+  margin: 0 auto;
+  padding: 5px 0;
+}
