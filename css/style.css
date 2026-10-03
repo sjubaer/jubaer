@@ -669,6 +669,9 @@ main {
     top: 40px;
     
   }
+  .project-details{
+    max-width: 50%;;
+  }
 }
 .project-details h3, .project-details p{
   border-bottom: 1px solid #ddd;
@@ -682,4 +685,59 @@ main {
 }
 .project-visual img{
   border-radius: 20px;
+}
+.description-more {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.6s ease,
+    opacity 0.4s ease;
+}
+
+.description-more p {
+  margin: 0 0 12px;
+}
+
+.description-dots {
+  transition: opacity 0.2s ease;
+}
+
+.read-more,
+.read-less {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.read-more {
+  margin-left: 5px;
+}
+
+.read-less {
+  margin-top: 5px;
+}
+
+.portfolio-description.expanded .description-more {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.portfolio-description.expanded .description-dots {
+  display: none;
+}
+
+.portfolio-description.expanded .read-more {
+  display: none;
+}
+
+.read-less {
+  display: none;
+}
+
+.portfolio-description.expanded .read-less {
+  display: inline-block;
 }
