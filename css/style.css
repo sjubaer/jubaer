@@ -671,7 +671,7 @@ main {
   }
   .project-details{
     max-width: 40%;
-    height: fit-content;
+  
   }
 }
 .project-details>h3, .project-details>p{
@@ -753,4 +753,7 @@ main {
     font-weight: 700;
     color: #000 !important;
     text-transform: uppercase;
+}
+.project-visual{
+    height: fit-content;
 }
