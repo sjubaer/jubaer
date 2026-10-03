@@ -24,6 +24,9 @@ img{
   display: block;
   max-width: 100%;
 }
+h2{
+  letter-spacing: -0.04em;
+}
 /* =========================
    Top Bar
 ========================= */
@@ -670,4 +673,13 @@ main {
 .project-details h3, .project-details p{
   border-bottom: 1px solid #ddd;
         padding-bottom: 15px;
+}
+.fake-nav{
+  display: none;
+}
+.project-visual{
+  border-radius: 20px;
+}
+.project-visual img{
+  border-radius: 20px;
 }
