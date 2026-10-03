@@ -774,3 +774,10 @@ main {
   margin:  0 auto;
   margin-bottom: 8px;
 }
+.steps{
+      max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
