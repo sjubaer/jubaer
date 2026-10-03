@@ -769,3 +769,6 @@ main {
     flex-wrap: wrap;
     padding-top: 32px;
 }
+.service-icon{
+  width: 25%;
+}
