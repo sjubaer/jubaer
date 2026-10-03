@@ -332,8 +332,14 @@ main {
 }
 
 .service-list > div {
-  padding: 7px 0 6px;
-  border-bottom: 1px solid #ddd9d0;
+  padding: 7px  14px;
+  border: 1px solid #ddd9d0;
+          padding: 16px 0;
+        width: calc(25% - 16px);
+        border: 1px solid #ddd9d0;
+        align-items: center;
+        text-align: center;
+        border-radius: 15px
 }
 
 .service-list h3 {
@@ -538,7 +544,7 @@ main {
   }
 
   .eyebrow {
-    font-size: 8px;
+    font-size: 14px;
   }
 
   .hero h1 {
@@ -756,4 +762,10 @@ main {
 }
 .project-visual{
     height: fit-content;
+}
+.service-list{
+      display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-top: 32px;
 }
