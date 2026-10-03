@@ -670,7 +670,8 @@ main {
     
   }
   .project-details{
-    max-width: 50%;;
+    max-width: 40%;
+    height: fit-content;
   }
 }
 .project-details h3, .project-details p{
