@@ -771,4 +771,6 @@ main {
 }
 .service-icon{
   width: 25%;
+  margin:  0 auto;
+  margin-bottom: 8px;
 }
