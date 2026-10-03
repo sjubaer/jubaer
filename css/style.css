@@ -92,7 +92,7 @@ main {
 .hero-copy {
   font-size: 6px;
   line-height: 1.55;
-  max-width: 225px;
+  
   color: #66645d;
   margin: 0 0 10px;
 }
@@ -324,7 +324,7 @@ main {
   line-height: 1.05;
   letter-spacing: -0.055em;
   margin: 0 0 18px;
-  max-width: 270px;
+ 
 }
 
 .service-list {
@@ -453,7 +453,7 @@ main {
   line-height: 1.05;
   letter-spacing: -0.055em;
   margin: 0 0 12px;
-  max-width: 240px;
+ 
 }
 
 .case-card {
