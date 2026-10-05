@@ -17,6 +17,7 @@ async function loadProjects() {
 //initial parser for test
 function parseCSV(csv) {
   const rows = csv.trim().split('\n');
+  console.log(rows)
 
   const headers = rows[0].split(',').map(header => header.trim());
 
