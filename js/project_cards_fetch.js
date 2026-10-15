@@ -4,6 +4,8 @@ const PROJECTS_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTtBl1
    PROJECTS DATA
    Google Sheets → CSV → JavaScript → Portfolio
    ========================================================= */
+const PROJECTS_PER_PAGE = 4;
+let visibleProjectsCount = PROJECTS_PER_PAGE;
 
 
 const portfolioData = {
@@ -75,16 +77,37 @@ async function loadProjects() {
    RENDER PROJECTS
    ========================================================= */
 
-function renderProjects() {
 
+function renderProjects() {
   const container = document.getElementById('projectsContainer');
+  const loadMoreButton = document.getElementById('loadMoreProjects');
+  const loadMoreContainer = document.getElementById('loadMoreContainer');
 
   if (!container) return;
 
-  container.innerHTML = portfolioData.projects
+  // Display only the currently visible projects
+  const visibleProjects = portfolioData.projects.slice(
+    0,
+    visibleProjectsCount
+  );
+
+  container.innerHTML = visibleProjects
     .map(project => createProjectHTML(project))
     .join('');
+
+  // Show or hide the Load More button
+  if (loadMoreContainer) {
+    loadMoreContainer.style.display =
+      visibleProjectsCount < portfolioData.projects.length
+        ? 'block'
+        : 'none';
+  }
+
+  if (loadMoreButton) {
+    loadMoreButton.disabled = false;
+  }
 }
+
 
 
 /* =========================================================
@@ -234,4 +257,11 @@ document.addEventListener('click', function (event) {
 
 loadProjects();
 
+//load more projects
+document.addEventListener('click', function (event) {
+  if (event.target.closest('#loadMoreProjects')) {
+    visibleProjectsCount += PROJECTS_PER_PAGE;
+    renderProjects();
+  }
+});
 
