@@ -802,8 +802,7 @@ main {
   padding: 12px 28px;
   border: 1px solid currentColor;
   border-radius: 6px;
-  background: transparent;
-  color: inherit;
+  color: #fff;
   font: inherit;
   cursor: pointer;
   transition: opacity 0.25s ease;
