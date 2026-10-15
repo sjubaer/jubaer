@@ -791,3 +791,24 @@ main {
   margin: 0 auto;
   padding: 5px 0;
 }
+
+.load-more-container {
+  display: none;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#loadMoreProjects {
+  padding: 12px 28px;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+
+#loadMoreProjects:hover {
+  opacity: 0.7;
+}
