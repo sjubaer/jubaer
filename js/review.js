@@ -3,7 +3,7 @@
    REVIEW CONFIGURATION
    ========================================================= */
 
-const REVIEWS_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTtBl1EljPqC3oBQo-QyBgJ-40x_BxLR7N9JnIEt2uemUkeZsWGCWGV4XiOavCZ_aiuRAbZaFUkmh2v/pub?output=csv';
+const REVIEWS_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTtBl1EljPqC3oBQo-QyBgJ-40x_BxLR7N9JnIEt2uemUkeZsWGCWGV4XiOavCZ_aiuRAbZaFUkmh2v/pub?gid=493748529&single=true&output=csv';
 const REVIEWS_PER_PAGE = 4;
 
 let allReviews = [];
