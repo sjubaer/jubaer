@@ -593,7 +593,7 @@ main {
   .section-heading h2,
   .services > h2,
   .dark-panel h2,
-  .case-highlight > h2 {
+  .case-highlight > h2, .section-title {
     font-size: 44px;
     letter-spacing: -0.04em;
   }
