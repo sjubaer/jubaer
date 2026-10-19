@@ -118,7 +118,7 @@ function renderReviewSummary() {
   summary.innerHTML = `
     <div class="reviews-summary-rating">
       <strong>${averageRating.toFixed(1)}</strong>
-      <span class="review-stars">${renderStars(averageRating)}</span>
+      <span class="review-stars">${renderStars(averageRating.toFixed(1))}</span>
       <span>${ratedReviews.length} rated reviews</span>
     </div>
   `;
