@@ -574,7 +574,7 @@ main {
     margin-bottom: 90px;
   }
 
-  .feature h2 {
+  .feature h2, .section-title {
     font-size: 45px;
   }
 
