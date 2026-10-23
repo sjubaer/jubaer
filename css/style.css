@@ -446,7 +446,11 @@ main {
 }
 
 .dark-panel li {
-  margin-bottom: 7px;
+     font-size: 20px;
+    list-style: outside;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
 }
 
 /* =========================
@@ -636,7 +640,8 @@ main {
   .dark-panel > div > p:last-child,
   .dark-panel ul,
   .case-copy p:last-child {
-    font-size: 9px;
+            font-size: 16px;
+        color: #121212
   }
 
   .service-list > div {
@@ -787,7 +792,7 @@ main {
 }
 .arrow-indicator{
   
-  max-width: 20px;
+  max-width: 48px;
   margin: 0 auto;
   padding: 5px 0;
 }
@@ -910,4 +915,43 @@ section{
  display: block;
  max-width: 50px;
  margin: 0 auto;
+}
+.steps> div{
+  display: block;
+}
+.steps span img{
+      width: 50px;
+    margin: 0 auto;
+}
+.steps span {
+  font-size: 24px;
+        color: #000;
+    
+}
+.dark-panel li {
+    
+    color: #fff;
+    margin-bottom: 16px !important;
+    padding-bottom: 8px;
+    font-size: 24px;
+    border-bottom: 1px solid;
+    position: relative;
+}
+.dark-panel li::after{
+    content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+
+  background: linear-gradient(
+    to right,
+    #8b5cf6,
+    #ec4899,
+    #f97316
+  );
+}
+.side-note{
+  font-size: 24px !important;
 }
