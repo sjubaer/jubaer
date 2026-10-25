@@ -4,7 +4,7 @@
    :root {
       --page: #f5f4ef;
       --green: #a9bba1;
-      --portrait-shape: #d2d9ca;
+      --portrait-shape: url('images/assets/bug.svg');
       --ink: #191918;
       --muted: #7e7c75;
       --footer: #171716;
