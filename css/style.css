@@ -967,7 +967,7 @@ section{
 /* ai generated style for aboutme, contact and footer */
   .about {
       display: grid;
-      grid-template-columns: 324px minmax(0, 1fr);
+      grid-template-columns: 400px minmax(0, 1fr);
       column-gap: 64px;
       align-items: start;
     }
