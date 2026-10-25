@@ -4,7 +4,7 @@
    :root {
       --page: #f5f4ef;
       --green: #a9bba1;
-      --portrait-shape: url('images/assets/bug.svg');
+     
       --ink: #191918;
       --muted: #7e7c75;
       --footer: #171716;
@@ -33,7 +33,7 @@ img{
   max-width: 100%;
 }
 h2{
-  letter-spacing: -0.04em;
+
 }
 /* =========================
    Top Bar
@@ -50,7 +50,7 @@ h2{
 
 .brand {
   font-weight: 700;
-  letter-spacing: -0.04em;
+  
 }
 
 .menu {
@@ -66,10 +66,7 @@ h2{
    Main
 ========================= */
 
-main {
-  width: 270px;
-  margin: 0 auto;
-}
+
 
 /* =========================
    Hero
@@ -379,7 +376,7 @@ main {
 
 .steps {
   margin-top: 14px;
-  border-top: 1px solid #ddd9d0;
+  
 }
 
 .steps > div {
@@ -653,7 +650,10 @@ main {
   }
 
   .service-list > div {
-    padding: 16px 0;
+            display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 16px;
   }
 
   /* Process */
@@ -916,12 +916,11 @@ main {
 }
 
 section{
-  padding-top: 5.5rem;
   padding-bottom: 5.5rem;
 }
 .steps span{
  display: block;
- max-width: 50px;
+
  margin: 0 auto;
 }
 .steps> div{
@@ -930,6 +929,7 @@ section{
 .steps span img{
       width: 50px;
     margin: 0 auto;
+    margin-bottom: 8px;
 }
 .steps span {
   font-size: 24px;
@@ -1041,7 +1041,7 @@ section{
     }
 
     .contact {
-      margin-top: 108px;
+   
       min-height: 384px;
       background: var(--green);
       padding: 80px 54px 50px;
@@ -1219,3 +1219,15 @@ section{
       font-size: 16px;
       color: #151514;
     }
+    .dark-panel p{
+      color: #fff;
+    }
+   .dark-panel{
+    margin-bottom: 5.5rem;
+   }
+   .steps> div h3{
+    font-size: 24px;
+   }
+   .steps p{
+    margin-top: 8px;
+   }
