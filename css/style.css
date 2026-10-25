@@ -1228,3 +1228,6 @@ section{
    .site-footer{
     padding: 45px 50px;
    }
+   .service-list h3{
+    font-size: 32px !important;
+   }
