@@ -3,7 +3,7 @@
 }
    :root {
       --page: #f5f4ef;
-      --green: #a9bba1;
+      --green: #fdd616;
      
       --ink: #191918;
       --muted: #7e7c75;
@@ -65,8 +65,9 @@ h2{
 /* =========================
    Main
 ========================= */
-
-
+main{
+  margin: 0 auto;
+}
 
 /* =========================
    Hero
@@ -123,8 +124,8 @@ h2{
 }
 
 .pill.light {
-  background: #fff;
-  border: 1px solid #dfddd5;
+  background: var(--green);
+
   color: #151514;
 }
 
