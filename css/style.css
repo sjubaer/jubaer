@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+   :root {
+      --page: #f5f4ef;
+      --green: #a9bba1;
+      --portrait-shape: #d2d9ca;
+      --ink: #191918;
+      --muted: #7e7c75;
+      --footer: #171716;
+    }
 @font-face { font-family: "Clash Grotesk"; src: url("https://framerusercontent.com/third-party-assets/fontshare/wf/MKEEQN57GWBZOSYWCRODNJOOZNPLMAKN/5SPTSZGHEACWWLF34DQ4WAA4OGU6PQIF/KN7DX4F6PXB74R6L2K2Y4NH3CB7FC53Q.woff2"); font-display: swap; font-style: normal; font-weight: 600 }
 
 html {
