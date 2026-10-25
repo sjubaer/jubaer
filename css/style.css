@@ -458,7 +458,7 @@ main {
     list-style: outside;
     margin-bottom: 16px;
     padding-bottom: 8px;
-    border-bottom: 1px solid;
+    
 }
 
 /* =========================
@@ -1187,4 +1187,35 @@ section{
       .portrait-shape { width: 160px; height: 205px; }
       .contact { padding: 38px 22px; }
       .footer-name { white-space: normal; }
+    }
+    .rounded-headshot{
+      max-width: 100%;
+    }
+    .header-logo-container{
+      height: 75px;
+      width: 75px;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+    .topbar{
+      padding-top: 15px ;
+    }
+    .topbar .brand{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .topbar span{
+      font-size: 24px;
+    }
+    .topbar .nav{
+      display: flex;
+      gap: 16px;
+      align-items: center;
+     
+    }
+    .nav-link{
+      text-decoration: none;
+      font-size: 16px;
+      color: #151514;
     }
