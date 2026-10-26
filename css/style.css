@@ -1231,3 +1231,12 @@ section{
    .service-list h3{
     font-size: 32px !important;
    }
+   @media (max-width: 767px) {
+    .topbar{
+      flex-wrap: wrap;
+    gap: 8px;
+    }    
+    section{
+      padding: 2.5rem 0.75rem;
+    }
+   }
