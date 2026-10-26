@@ -80,7 +80,7 @@ main{
 
 .eyebrow {
   margin: 0 0 7px;
-  font-size: 5px;
+  font-size: 10px;
   line-height: 1.2;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -89,14 +89,14 @@ main{
 }
 
 .hero h1 {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1;
   margin: 0 0 9px;
   font-weight: 700;
 }
 
 .hero-copy {
-  font-size: 6px;
+  font-size: 12px;
   line-height: 1.55;
   
   color: #66645d;
@@ -114,7 +114,7 @@ main{
   text-decoration: none;
   padding: 4px 8px;
   border-radius: 10px;
-  font-size: 5px;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -151,21 +151,22 @@ main{
 }
 
 .feature h2 {
-  font-size: 13px;
+  font-size: 24px;
   line-height: 1.02;
   letter-spacing: -0.055em;
   margin: 0 0 7px;
 }
 
 .feature p:not(.eyebrow) {
-  font-size: 11px;
-  color: #bbb9b1;
+  font-size: 22px;
+
+  color: var(--muted);
  
   margin: 0;
 }
 
 .light-text {
-  color: #bcbab3;
+  color: var(--page);
 }
 
 .feature-card {
@@ -588,7 +589,7 @@ main{
   }
 
   .feature p:not(.eyebrow) {
-    font-size: 13px;
+    font-size: 14px;
   }
 
 
