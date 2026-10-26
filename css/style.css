@@ -172,9 +172,9 @@ main{
   width: 50%;
  
 
-  background: #aabd9e;
+  background: var(--green);
   color: #1c201c;
-
+  color: var(--ink);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -245,7 +245,7 @@ main{
 /* Project colors */
 
 .green {
-  background: #a9bda1;
+  background: var(--green);
 }
 
 .beige {
@@ -302,7 +302,7 @@ main{
   font-size: 22px;
   line-height: 1;
   margin: 0 0 5px;
-  letter-spacing: -0.045em;
+
 }
 
 .project p {
@@ -350,7 +350,7 @@ main{
 
 .service-list h3 {
   font-size: 8px;
-  letter-spacing: -0.035em;
+
   margin: 0 0 2px;
 }
 
@@ -364,9 +364,7 @@ main{
    Process
 ========================= */
 
-.process {
-  padding-bottom: 46px;
-}
+
 
 .process .side-note {
   font-size: 5px;
