@@ -386,8 +386,8 @@ main{
 
   padding: 8px 0;
 
- border: 1px solid #ddd9d0;
-    box-shadow: 0px 0px 6px -2px;
+ border: 1px solid var(--green);
+    box-shadow:  inset 40px -150px 72px var(--green);
      border-radius: 30px;
      text-align: center;
 }
