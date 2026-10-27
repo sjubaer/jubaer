@@ -1258,4 +1258,14 @@ section{
     .dark-panel{
       grid-template-columns: 1fr;
     }
+    .topbar .nav{
+      display: none !important;
+    }
+
+   }
+   .special_text{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: var(--green);
+    text-decoration-thickness:2px
    }
