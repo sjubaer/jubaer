@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
    :root {
       --page: #f5f4ef;
@@ -1237,6 +1239,23 @@ section{
     gap: 8px;
     }    
     section{
-      padding: 2.5rem 0.75rem;
+      padding: 2.5rem 0.75rem !important;
+    }
+    .service-list{
+      flex-wrap: wrap;
+    }
+    .feature{
+          flex-direction: column;
+
+    }
+    .feature-copy, .feature-card{
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    .project{
+      flex-direction: column;
+    }
+    .dark-panel{
+      grid-template-columns: 1fr;
     }
    }
