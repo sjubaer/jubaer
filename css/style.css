@@ -1287,6 +1287,9 @@ section{
     .service-list h3{
       font-size: 22px;
     }
+    .project-meta{
+      display: none;
+    }
   }
    .special_text{
     text-decoration: underline;
