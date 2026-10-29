@@ -114,9 +114,9 @@ main{
 .pill {
   display: inline-flex;
   text-decoration: none;
-  padding: 4px 8px;
+  padding: 12px 24px;
   border-radius: 10px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -1261,8 +1261,24 @@ section{
     .topbar .nav{
       display: none !important;
     }
+    .feature h2,
+    .feature p:not(.eyebrow){
+    margin-bottom: 16px;
 
    }
+   .side-note {
+    font-size: 14px !important;
+}
+.steps p{
+  display: none;
+}
+.dark-panel > div > p:last-child{
+  font-size: 14px;
+}
+    section {
+        padding: 1.25rem 0.75rem !important;
+    }
+  }
    .special_text{
     text-decoration: underline;
     text-underline-offset: 5px;
