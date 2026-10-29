@@ -432,14 +432,14 @@ main{
 }
 
 .dark-panel h2 {
-  font-size: 12px;
+  font-size: 24px;
   line-height: 1.03;
   letter-spacing: -0.055em;
   margin: 0 0 7px;
 }
 
 .dark-panel > div > p:last-child {
-  font-size: 5px;
+  font-size: 14px;
   color: #b8b6ae;
   margin: 0;
 }
@@ -449,7 +449,7 @@ main{
   padding: 0;
   list-style: none;
 
-  font-size: 5px;
+  font-size: 14px;
   color: #d5d2ca;
 }
 
@@ -1277,6 +1277,15 @@ section{
 }
     section {
         padding: 1.25rem 0.75rem !important;
+    }
+    .feature h2{
+      letter-spacing: 0.0009rem;
+    }
+    .services > h2{
+      font-size: 24px;
+    }
+    .service-list h3{
+      font-size: 22px;
     }
   }
    .special_text{
