@@ -1290,6 +1290,9 @@ section{
     .project-meta{
       display: none;
     }
+    .site-footer {
+    padding: 1.25rem .75rem;
+}
   }
    .special_text{
     text-decoration: underline;
