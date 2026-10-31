@@ -1293,6 +1293,23 @@ section{
     .site-footer {
     padding: 1.25rem .75rem;
 }
+.hero h1{
+  padding: 8px 0;
+}
+.hero{
+  margin-bottom: 20px;
+}
+.hero .eyebrow{
+  padding-bottom: 20px;
+}
+.mobile-menu-icon{
+  max-width: 25px;
+  max-height: 25px;
+  display: block;
+}
+.mobile-menu-icon svg{
+  max-width: 100%;
+}
   }
    .special_text{
     text-decoration: underline;
