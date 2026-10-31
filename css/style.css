@@ -1300,7 +1300,7 @@ section{
   margin-bottom: 20px;
 }
 .hero .eyebrow{
-  padding-bottom: 20px;
+  padding-bottom: 8px;
 }
 .mobile-menu-icon{
   max-width: 25px;
@@ -1309,6 +1309,10 @@ section{
 }
 .mobile-menu-icon svg{
   max-width: 100%;
+}
+.hero-copy{
+  font-size: 18px;
+  padding-bottom: 8px;
 }
   }
    .special_text{
