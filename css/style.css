@@ -1309,6 +1309,7 @@ section{
 }
 .mobile-menu-icon svg{
   max-width: 100%;
+  width: 100%;
 }
 .hero-copy{
   font-size: 18px;
