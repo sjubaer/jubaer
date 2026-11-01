@@ -1511,3 +1511,55 @@ section{
 .menu-cta:hover {
   background: #fff;
 }
+.menu-bottom{
+  display: none;
+}
+.menu-links a:hover{
+  color: var(--green) !important;
+}
+
+/* Dedicated close button */
+
+.menu-close {
+  position: absolute;
+  top: 16px;
+  right: 6%;
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #555;
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1;
+
+  cursor: pointer;
+  z-index: 5;
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.menu-close:hover {
+  background: #d5ff00;
+  color: #101010;
+  transform: rotate(90deg);
+}
+
+@media (max-width: 600px) {
+  .menu-close {
+    top: 13px;
+    right: 6%;
+    width: 46px;
+    height: 46px;
+  }
+}
