@@ -1235,7 +1235,7 @@ section{
    }
    @media (max-width: 767px) {
     .topbar{
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     gap: 8px;
     }    
     section{
@@ -1315,8 +1315,14 @@ section{
   font-size: 18px;
   padding-bottom: 8px;
 }
+.menu-toggle{
+      border: none;
+    background: none;
+}
 
-  }
+}
+
+
    .special_text{
     text-decoration: underline;
     text-underline-offset: 5px;
