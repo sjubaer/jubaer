@@ -1563,3 +1563,8 @@ section{
     height: 46px;
   }
 }
+@media(min-width: 768px){
+  .mobile-menu-icon{
+    display: none;
+  }
+}
