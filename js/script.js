@@ -2,7 +2,7 @@
 const menuToggle = document.getElementById("menuToggle");
 const mobileMenu = document.getElementById("mobileMenu");
 const menuLinks = mobileMenu.querySelectorAll(".menu-links a");
-const menuClose = document.getElementById("menuClose");
+const menuClsoe = document.getElementById("menuClsoe");
 
 let isMenuOpen = false;
 
@@ -70,4 +70,4 @@ mobileMenu.addEventListener("click", (event) => {
     closeMenu();
   }
 });
-menuClose.addEventListener("click", closeMenu);
+menuClsoe.addEventListener("click", closeMenu);
